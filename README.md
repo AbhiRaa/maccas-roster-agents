@@ -1,5 +1,7 @@
 # 🍔 Maccas Roster Agents
 
+![Multi-agent system architecture](McDonalds Multi-Agent Roster System Architecture.png)
+
 A **multi-agent rostering system** for a busy McDonald’s store, built to generate **2-week rosters** that balance:
 
 - Fair Work–style contract and rest rules  
@@ -12,7 +14,7 @@ Under the hood, agents collaborate around a shared `SystemContext`, with a CP-SA
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the repo
 
