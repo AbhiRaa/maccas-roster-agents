@@ -1,6 +1,8 @@
 # 🍔 Maccas Roster Agents
 
-![Multi-agent system architecture](McDonalds Multi-Agent Roster System Architecture.png)
+<p align="center">
+  <img src="./McDonalds Multi-Agent Roster System Architecture.png" alt="Multi-agent system architecture" width="800">
+</p>
 
 A **multi-agent rostering system** for a busy McDonald’s store, built to generate **2-week rosters** that balance:
 
