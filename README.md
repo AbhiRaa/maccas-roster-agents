@@ -227,35 +227,3 @@ For the default 2-week window, a typical run produces:
     17 soft violations (mostly small under-hours vs contract minimum)
 
 These results are printed to the console and summarised as natural language by the ExplanationAgent.
-
-
-### Project Structure
-
-.
-├── agents/
-│   ├── orchestrator.py           # Coordinates all agents
-│   ├── data_context.py           # Load crew & availability
-│   ├── management_template.py    # Monthly roster → manager template + availability
-│   ├── demand_coverage.py        # Build daily demand
-│   ├── generator.py              # CP-SAT roster generation
-│   ├── compliance.py             # Fair Work style constraint checks
-│   ├── coverage_eval.py          # Coverage metrics (overall, peak, manager, weekend)
-│   ├── conflict_resolution.py    # Optional rebalancing when hard violations exist
-│   ├── skill_station.py          # Assign stations based on skills & demand
-│   ├── cost.py                   # Labour cost estimation
-│   ├── export.py                 # CSV export
-│   └── explainer.py              # Human-readable explanation
-├── core/
-│   └── models.py                 # Core dataclasses + enums
-├── data/
-│   ├── raw/
-│   │   ├── employee_availability_2weeks.xlsx
-│   │   └── management_roster_simplified.xlsx
-│   └── processed/
-│       └── roster_store1_2weeks.csv   # Generated output
-├── scripts/
-│   └── run_demo.py               # CLI entry point for the full pipeline
-├── ui/
-│   └── streamlit_app.py          # Lightweight UI
-├── requirements.txt
-└── README.md
