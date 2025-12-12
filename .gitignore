@@ -1,0 +1,14 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# macOS
+.DS_Store
+
+# Streamlit local stuff
+.streamlit/
+
+# Generated data/outputs
+data/processed/

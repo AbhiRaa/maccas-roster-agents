@@ -1,0 +1,5 @@
+pandas
+openpyxl
+ortools
+pydantic
+streamlit>=1.38.0
